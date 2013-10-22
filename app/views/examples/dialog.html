@@ -1,0 +1,19 @@
+<div class="container">
+    <table>
+    <tr><td>用户名：</td><td>
+    <div id="J_username_{{viewId}}">{{name}}</div>
+    </td>
+    <td>
+    <a href="#" id="btnShowright" style="margin-left:20px;" class="btn" mx-click="modifyUsername<prevent>">点击修改用户名</a>
+    </td>
+    </tr>
+    </table>
+</div>
+
+{{#bx-tmpl-dialogcontent}}
+<div style="margin-top:-10px">
+    <h2 class="h3" style="margin:0">请输入用户名</h2>
+        <input type="text" class="input" style="height:20px;line-height:20px" />
+    <div style="margin-top:15px"><a class="btn" mx-click="saveUsername<prevent>">确定</a></div>
+</div>
+{{/bx-tmpl}}
