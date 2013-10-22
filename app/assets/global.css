@@ -296,3 +296,7 @@ a:hover {
   line-height: 25px;
   list-style: disc inside none;
 }
+
+.dropdown-table td {
+	padding: 8px 3px;
+}

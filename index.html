@@ -21,16 +21,24 @@
             }]
         });
         Magix.start({
-            defaultView:'app/views/default',
-            notFoundView:'app/views/404',
-            defaultPathname:'/home',
-            extensions:['app/assets/blue.css','app/pc-events','app/vdata','app/brix2','app/statistics','app/mmstatistics'],//可以换肤,提供n多扩展
-            routes:{
-                '/examples/table-sortable':'app/views/default',
-                '/examples/renderer':'app/views/default',
-                '/brixes/dialog':'app/views/default',
-                '/brixes/dropdown':'app/views/default',
-                '/brixes/tip':'app/views/default'
+            defaultView     : 'app/views/default',
+            notFoundView    : 'app/views/404',
+            defaultPathname : '/home',
+            //可以换肤,提供n多扩展
+            extensions      : [
+                'app/assets/gray.css',
+                'app/pc-events',
+                'app/vdata',
+                'app/brix2',
+                'app/statistics',
+                'app/mmstatistics'
+            ],
+            routes          : {
+                '/examples/table-sortable' : 'app/views/default',
+                '/examples/renderer'       : 'app/views/default',
+                '/brixes/dialog'           : 'app/views/default',
+                '/brixes/dropdown'         : 'app/views/default',
+                '/brixes/tip'              : 'app/views/default'
             }
         });
     });
