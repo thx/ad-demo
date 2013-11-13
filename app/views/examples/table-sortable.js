@@ -14,7 +14,7 @@ KISSY.add('app/views/examples/table-sortable', function(S, View, MM) {
                 if (e) {
                     me.setViewHTML(e.msg);
                 } else {
-                    var list = m.get('list');
+                    var list = m.get('data', []);
                     var loc = me.location;
                     var sortby = loc.get('sortby');
                     var sortkey = loc.get('sortkey');
@@ -31,7 +31,6 @@ KISSY.add('app/views/examples/table-sortable', function(S, View, MM) {
                             }
                         });
                     }
-
                     me.renderByPagelet({
                         list: list,
                         sortDesc: sortby == 'desc'

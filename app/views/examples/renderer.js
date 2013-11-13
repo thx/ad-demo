@@ -27,7 +27,7 @@ KISSY.add('app/views/examples/renderer', function(S, View, MM) {
                 if (e) {
                     me.setViewHTML(e.msg);
                 } else {
-                    var list = m.get('list');
+                    var list = m.get('data');
                     var loc = me.location;
                     var sortby = loc.get('sortby');
                     var sortkey = loc.get('sortkey');
