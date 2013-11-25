@@ -1,4 +1,4 @@
-ad-demo
+Magix Ad Demo
 =======
 
-广告系统DEMO
+广告系统 DEMO <http://thx.github.io/magix-demo-ad>
